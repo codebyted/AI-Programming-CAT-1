@@ -1,0 +1,8 @@
+from math import pi
+
+def area_of_circle(radius):
+    if radius <= 0:
+        return "Invalid radius"
+    return round(pi * radius**2, 2)
+
+print(area_of_circle(7))
